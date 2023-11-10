@@ -1,0 +1,500 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #262626;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: gray;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #581959;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+li, a, button{
+    font-family: "Courgette", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-lien{
+    list-style: none;
+}
+
+.navbar-lien li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-lien li a:hover{
+    color: grey;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #581959;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.titre-principal{
+    padding-top: 60px;
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.img-tobias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-tobias img{
+    border-radius: 225px;
+    border: 5px #ffffff solid;
+    width: 350px;
+    height: 350px;
+}
+
+.contenue-index{
+    text-align: center;
+    color: white;
+    font-family: "Courgette", sans-serif;
+    padding-top: 40px;
+}
+
+#paragraphe2-index{
+    padding-top: 70px;
+}
+
+#paragraphe3-index{
+    padding-top: 70px;
+}
+
+#paragraphe4-index{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.footer-lien{
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #581959;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-lien-propos{
+    list-style: none;
+    color: white;
+    font-family: "Courgette", sans-serif;
+}
+
+.footer-lien-reseaux{
+    list-style: none;
+    color: white;
+    font-family: "Courgette", sans-serif;
+}
+
+.footer-lien-noface{
+    list-style: none;
+    margin-right: 100px;
+    color: white;
+    font-family: "Courgette", sans-serif;
+}
+
+.droits-reserve{
+    background-color: #581959;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: "Courgette", sans-serif;
+    padding-bottom: 10px;
+}
+
+.introduction-page{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.tous-evenements-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.evenement-1{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    background-color: #581959;
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.evenement-1 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 365px;
+    border-radius: 60px;
+}
+
+.voir-article{
+    display: flex;
+
+}
+
+.evenement-2{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    background-color: #581959;
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.evenement-2 img{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 365px;
+    border-radius: 60px;
+}
+
+.evenement-3{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    background-color: #581959;
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.evenement-3 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 365px;
+    border-radius: 60px;
+}
+
+.tous-evenements-mid{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.evenement-4{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    background-color: #581959;
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.evenement-4 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 365px;
+    border-radius: 60px;
+}
+
+.evenement-5{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    background-color: #581959;
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.evenement-5 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 365px;
+    border-radius: 60px;
+}
+
+.evenement-6{
+    color: white;
+    font-family: "Courgette", sans-serif;
+    text-align: center;
+    background-color: #581959;
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.evenement-6 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 365px;
+    border-radius: 60px;
+}
+
+.chaine-ytb-tobias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.img-ytb-tobias{
+    width: 800px;
+    height: 461px;
+    border-radius: 30px;
+    border: 3px #ffffff solid;
+}
+
+.chaine-twitch-tobias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    border-top: 2px solid #581959;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+    
+}
+
+.img-twitch-tobias{
+    width: 800px;
+    height: 410px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.chaine-kick-tobias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    border-top: 2px solid #581959;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+}
+
+.img-kick-tobias{
+    width: 800px;
+    height: 410px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.chaine-insta-tobias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    border-top: 2px solid #581959;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+}
+
+.img-insta-tobias{
+    width: 800px;
+    height: 410px;
+    border-radius: 30px;
+    border: 4px #ffffff solid;
+}
+
+.article-noface{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.article-noface img:hover{
+    background-color: #262626;
+    opacity: 20%;
+    transition: all 0.3s ease 0s;
+}
+
+.formulaire{
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Courgette", sans-serif;
+    color: white;
+}
+
+input[type="text"]{
+    font-size: 15px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(207, 207, 207);
+}
+
+.form-prenom{
+    padding-top: 30px;
+}
+
+.form-nom{
+    padding-top: 30px;
+}
+
+.form-adresse{
+    padding-top: 30px;
+}
+
+.form-message{
+    padding-top: 30px;
+}
+
+.form-politique{
+    padding-top: 30px;
+}
+
+.form-btn-envoyer{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.form-btn-envoyer button{
+    padding: 10px 20px;
+    background-color: #581959;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.form-btn-envoyer button:hover{
+    margin: 3px;
+    background-color: #ae35b0;
+    color: white;
+}
+
+@media screen and (max-width: 1130px){
+    .tous-evenements-top{
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .tous-evenements-mid{
+        width: 900px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .evenement-2{
+        margin-top: 30px;
+    }
+
+    .evenement-3{
+        margin-top: 30px;
+    }
+
+    .evenement-5{
+        margin-top: 30px;
+    }
+
+    .evenement-6{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 1455px){
+    .article-noface{
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tshirt1-noface{
+        margin-top: 30px;
+    }
+
+    .tshirt2-noface{
+        margin-top: 30px;
+    }
+
+    .cagoule-noface{
+        margin-top: 30px;
+    }
+
+    .ensemble-noface{
+        margin-top: 30px;
+    }
+
+    .article-noface img{
+        width: 400px;
+        height: 600px;
+    }
+}
